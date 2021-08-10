@@ -16,7 +16,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--text-color);
 
-  font-family: roboto, sans-serif;
+  font-family: roboto, raleway, sans-serif;
 }
 
 .list {
@@ -121,6 +121,7 @@ body {
   color: var(--primary-white-color);
   background-color: var(--acent-color);
 
+  font-family: roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -182,3 +183,41 @@ body {
 }
 
 /* portfolio.html */
+
+.filter-button {
+  color: var(--header-text-color);
+  background-color: var(--primary-white-color);
+
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--acent-color);
+}
+.portfolio-title {
+  text-decoration: none;
+}
+.portfolio-header {
+  color: var(--header-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
