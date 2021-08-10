@@ -76,6 +76,11 @@ body {
 .footer {
   background-color: #2f303a;
 }
+
+.footer .logo-text {
+  color: var(--primary-white-color);
+}
+
 .footer-adress {
   color: var(--primary-white-color);
 
